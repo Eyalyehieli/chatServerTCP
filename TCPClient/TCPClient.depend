@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1626852711 source:/home/eyalyehieli/Desktop/EyalCProgram/ChatServer/TCPClient/TCPClient/main.c
+	<netdb.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<sys/socket.h>
+

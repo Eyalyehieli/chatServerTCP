@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1626854721 source:/home/eyalyehieli/Desktop/EyalCProgram/ChatServer/TCPServerMulitClient/TCPServerMultiClient/main.c
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	<errno.h>
+	<unistd.h>
+	<arpa/inet.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<netinet/in.h>
+	<sys/time.h>
+
