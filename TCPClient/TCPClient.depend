@@ -6,3 +6,26 @@
 	<string.h>
 	<sys/socket.h>
 
+1627048774 source:/home/eyalyehieli/Desktop/EyalCProgram/ChatServerTCP/chatServerTCP/TCPClient/main.c
+	<netdb.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<sys/socket.h>
+	"myClient.h"
+
+1627048774 /home/eyalyehieli/Desktop/EyalCProgram/ChatServerTCP/chatServerTCP/TCPClient/myClient.h
+	<netdb.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<sys/socket.h>
+
+1627399875 source:/home/eyalyehieli/Desktop/EyalCProgram/ChatServerTCP/chatServerTCP/TCPClient/myClient.c
+	<netdb.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<sys/socket.h>
+	"myClient.h"
+

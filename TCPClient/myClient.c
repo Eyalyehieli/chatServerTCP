@@ -44,9 +44,10 @@ int connfd;
 
 
 	// function for chat
-	read(sockfd, buff, sizeof(buff));
+	recv(sockfd,buff,sizeof(buff),0);
+	//read(sockfd, buff, sizeof(buff));
     printf("%s",buff);
-    return clientError;
+    return success;
 }
 
  clientErrors processClient()
@@ -60,7 +61,8 @@ int connfd;
 		while ((buff[n++] = getchar()) != '\n');
 		write(sockfd, buff, sizeof(buff));
 		bzero(buff, sizeof(buff));
-		read(sockfd, buff, sizeof(buff));
+		recv(sockfd, buff, sizeof(buff),0);
+		//read(sockfd, buff, sizeof(buff));
 		printf("From Server : %s", buff);
 		if ((strncmp(buff, "exit", 4)) == 0) {
 			printf("Client Exit...\n");

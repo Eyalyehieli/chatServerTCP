@@ -18,6 +18,9 @@ typedef enum {initError,processError,closeError,success} serverErrors;
  serverErrors initServer ();
  serverErrors processServer();
  serverErrors closeServer();
+ void addChildToSockets();
+ void processIncomingConnection();
+ void checkingIncomingMsg();
 
 
 
