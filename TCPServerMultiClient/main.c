@@ -19,10 +19,11 @@
 int main(int argc , char *argv[])
 {
     serverErrors check;
-	check=initServer();
+    myServerDataStruct* ds=(myServerDataStruct*)malloc(sizeof(myServerDataStruct));
+	check=initServer(ds);
 	if(check==success)
 	{
-	 check=processServer();
+	 check=processServer(ds);
 	 if(check==processError)
 	 {
 	 printf("process server error");
@@ -32,7 +33,7 @@ int main(int argc , char *argv[])
 	{
 	  printf("init server error");
 	}
-	check=closeServer();
+	check=closeServer(ds);
 	if(check==closeError)
 	{
 	  printf("close server error");
